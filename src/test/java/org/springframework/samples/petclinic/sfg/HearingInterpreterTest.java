@@ -3,11 +3,13 @@ package org.springframework.samples.petclinic.sfg;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringJUnitConfig(classes = {HearingInterpreterTest.config.class})
 class HearingInterpreterTest {
+  @Configuration
     static class config{
         HearingInterpreter hearingInterpreter;
         @Bean
