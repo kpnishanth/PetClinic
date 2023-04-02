@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringJUnitConfig(classes = TestPropertyWordProducer.class)
 @ActiveProfiles("laurel")
 @TestPropertySource("classpath:yanny.properties")
-class HearingInterpreterTestpropertySourceTest {
+class YanniHearingInterpreterTestpropertySourceTest {
 @Autowired
 HearingInterpreter hearingInterpreter;
 @Autowired
