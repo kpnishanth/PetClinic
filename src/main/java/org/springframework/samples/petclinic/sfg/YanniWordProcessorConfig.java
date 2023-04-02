@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Profile;
 @Profile("yanniConfig")
 public class YanniWordProcessorConfig {
     @Bean
-    YanniWordProducer getYanniWordProcessor() {
-        return new YanniWordProducer();
+    YanniWordProcessor getYanniWordProcessor() {
+        return new YanniWordProcessor();
     }
 }
